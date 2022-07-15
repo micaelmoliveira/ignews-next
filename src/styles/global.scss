@@ -7,12 +7,14 @@
 :root{
     --white: #ffffff;
 
-    --grey-light: #e1e1e6;
-    --grey-medium: #a8a8b3;
-    --grey-dark: #121214;
+    --grey-100: #e1e1e6;
+    --grey-300: #a8a8b3;
+    --grey-800: #29292e;
+    --grey-850: #1f2729;
+    --grey-900: #121214;
 
     --cyan: #61dafb;
-    --yellow-medium: #eba417;
+    --yellow: #eba417;
 }
 
 @media(max-width: 1080px){
@@ -32,7 +34,7 @@
 }
 
 body{
-    background: var(--grey-dark);
+    background: var(--grey-900);
     color: var(--white);
 }
 
