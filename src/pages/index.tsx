@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 import Image from 'next/image';
-import avatar from '/images/avatar.svg';
+import avatar from '../../public/images/avatar.svg';
 
 import styles from './home.module.scss';
 
